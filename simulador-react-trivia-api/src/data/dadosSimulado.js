@@ -1,0 +1,75 @@
+export const dadosSimulado = {
+  unicamp: [
+    {
+      id: 'u1q1',
+      vestibular: 'UNICAMP',
+      materia: 'História',
+      dificuldade: 'facil',
+      enunciado: 'Qual o principal produto agrícola de exportação do Brasil no período colonial?',
+      opcoes: ['Café', 'Soja', 'Cana-de-açúcar', 'Algodão'],
+      respostaCorreta: 2,
+    },
+    {
+      id: 'u1q2',
+      vestibular: 'UNICAMP',
+      materia: 'Física',
+      dificuldade: 'medio',
+      enunciado: 'Um corpo em queda livre, desconsiderando a resistência do ar, tem sua aceleração...',
+      opcoes: ['Aumentada', 'Diminuída', 'Constante', 'Nula'],
+      respostaCorreta: 2,
+    },
+  ],
+  fuvest: [
+    {
+      id: 'f1q1',
+      vestibular: 'FUVEST',
+      materia: 'Literatura',
+      dificuldade: 'facil',
+      enunciado: 'A obra "Dom Casmurro" foi escrita por qual autor brasileiro?',
+      opcoes: ['José de Alencar', 'Graciliano Ramos', 'Jorge Amado', 'Machado de Assis'],
+      respostaCorreta: 3,
+    },
+    {
+      id: 'f1q2',
+      vestibular: 'FUVEST',
+      materia: 'Geografia',
+      dificuldade: 'dificil',
+      enunciado: 'O processo de formação de desertos em áreas que não eram originalmente desérticas é chamado de:',
+      opcoes: ['Arenização', 'Desertificação', 'Laterização', 'Voçoroca'],
+      respostaCorreta: 1,
+    },
+  ],
+  utfpr: [
+    {
+      id: 't1q1',
+      vestibular: 'UTFPR',
+      materia: 'Física',
+      dificuldade: 'medio',
+      enunciado: 'Qual a fórmula da Segunda Lei de Newton?',
+      opcoes: ['E = mc²', 'V = R * i', 'F = m * a', 'S = S₀ + v*t'],
+      respostaCorreta: 2,
+    },
+  ],
+  uem: [
+    {
+      id: 'm1q1',
+      vestibular: 'UEM',
+      materia: 'Geografia',
+      dificuldade: 'facil',
+      enunciado: 'Qual bioma predomina na região Norte do Brasil?',
+      opcoes: ['Cerrado', 'Amazônia', 'Mata Atlântica', 'Pampa'],
+      respostaCorreta: 1,
+    },
+  ],
+  unesp: [
+    {
+      id: 'p1q1',
+      vestibular: 'UNESP',
+      materia: 'História',
+      dificuldade: 'medio',
+      enunciado: 'A Revolução Francesa, iniciada em 1789, defendia quais ideais?',
+      opcoes: ['Paz, Pão e Terra', 'Deus, Pátria e Família', 'Ordem e Progresso', 'Liberdade, Igualdade e Fraternidade'],
+      respostaCorreta: 3,
+    },
+  ],
+};
